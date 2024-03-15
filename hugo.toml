@@ -1,4 +1,81 @@
-baseURL = 'https://triii10.github.io/personal-blog/'
+baseURL = 'https://triii10.github.io/blog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Odysseus' Adventures"
 theme = 'hello-friend-ng'
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  homeSubtitle = "Navigating the world one bit a time"
+  # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
+  clearReading = false
+  # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
+  # they have to be referred from static root. Example
+  #customCSS = ["/css/custom.css"]
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+
+# Deafults set from: https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/exampleSite/config.toml
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+
+[params.author]
+  name = "Trilok Bhattacharya"
+
+[params.logo]
+    logo         = "sized.jpg"
+    logoText     = "$ cd /home/trilok"
+    logoHomeLink = "/blog"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+# Social icons
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:binary.triii@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/triii10"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/triii_10"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "https://triii10.github.io/"
+  [[menu.main]]
+    identifier = "post"
+    name       = "Posts"
+    url        = "/posts/"

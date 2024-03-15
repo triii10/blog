@@ -13,7 +13,7 @@
       <link>http://localhost:1313/personal-blog/posts/second/</link>
       <pubDate>Fri, 15 Mar 2024 17:11:17 +0000</pubDate>
       <guid>http://localhost:1313/personal-blog/posts/second/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+      <description>Year: &amp;ldquo;2011&amp;rdquo; Author: Tang Chunqiang tags:&#xA;&amp;ldquo;#paper&amp;rdquo; &amp;ldquo;#init&amp;rdquo; URL: http://www.usenix.org/events/atc11/tech/final_files/Tang.pdf DOI: &amp;quot;&amp;quot; Cite Key: &amp;ldquo;[@chunqiangFVDHighperformanceVirtual2011]&amp;rdquo; Links: FVD: A high-performance virtual machine image format for cloud (2011) - Tang Chunqiang Link: http://www.usenix.org/events/atc11/tech/final_files/Tang.pdf DOI: Links: Tags: #paper&#xA;Abstract Fast Virtual Disk (FVD) is a new virtual machine (VM) image format and the corresponding block device driver developed for QEMU. QEMU does I/O emulation for multiple hypervisors, including KVM, Xen-HVM, and VirtualBox. FVD is a holistic solution for both Cloud and non-Cloud environments.</description>
     </item>
   </channel>
 </rss>

@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/personal-blog/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Odysseus&#39; Adventures</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Odysseus&#39; Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Mar 2024 17:11:17 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/personal-blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Second</title>
-      <link>http://localhost:1313/personal-blog/posts/second/</link>
-      <pubDate>Fri, 15 Mar 2024 17:11:17 +0000</pubDate>
-      <guid>http://localhost:1313/personal-blog/posts/second/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
-    </item>
+    <lastBuildDate>Fri, 15 Mar 2024 17:05:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://localhost:1313/personal-blog/posts/first/</link>
+      <link>http://localhost:1313/blog/posts/first/</link>
       <pubDate>Fri, 15 Mar 2024 17:05:32 +0000</pubDate>
-      <guid>http://localhost:1313/personal-blog/posts/first/</guid>
+      <guid>http://localhost:1313/blog/posts/first/</guid>
       <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>
