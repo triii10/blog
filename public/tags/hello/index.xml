@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/hello/</link>
+    <link>http://localhost:1313/personal-blog/tags/hello/</link>
     <description>Recent content in Hello on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Mar 2024 17:11:17 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hello/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/personal-blog/tags/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Second</title>
-      <link>http://localhost:1313/posts/second/</link>
+      <link>http://localhost:1313/personal-blog/posts/second/</link>
       <pubDate>Fri, 15 Mar 2024 17:11:17 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
+      <guid>http://localhost:1313/personal-blog/posts/second/</guid>
       <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>
