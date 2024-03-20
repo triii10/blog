@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Odysseus&#39; Adventures</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content on Odysseus&#39; Adventures</description>
+    <title>Secure Coding on Odysseus&#39; Adventures</title>
+    <link>http://localhost:1313/blog/tags/secure-coding/</link>
+    <description>Recent content in Secure Coding on Odysseus&#39; Adventures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Mar 2024 14:48:31 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/secure-coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C Memory Management Rules</title>
       <link>http://localhost:1313/blog/posts/c-memory-management/</link>
       <pubDate>Wed, 20 Mar 2024 14:48:31 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/c-memory-management/</guid>
       <description>Reference: SEI CERT C Coding Standard MEM30-C (Do not access freed memory) The following behaviours relating to the use of pointers, after they have been deallocated, are undefined :&#xA;Evaluating a pointer, including dereferencing it Using it as an operand of an arithmetic operation Type-casting it Using it as the right-hand side assignment Such pointers are called dangling pointers. Accessing such pointers can lead to exploitable vulnerabilities.&#xA;Example 1 - #include &amp;lt;stdlib.</description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>http://localhost:1313/blog/posts/first/</link>
-      <pubDate>Fri, 15 Mar 2024 17:05:32 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/first/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
     </item>
   </channel>
 </rss>

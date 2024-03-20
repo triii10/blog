@@ -1,23 +1,164 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Odysseus&#39; Adventures</title>
-        <link>http://localhost:1313/blog/posts/</link>
-        <description>Recent content in Posts on Odysseus&#39; Adventures</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Wed, 20 Mar 2024 14:48:31 +0000</lastBuildDate>
-        <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>C Memory Management Rules</title>
-            <link>http://localhost:1313/blog/posts/c-memory-management/</link>
-            <pubDate>Wed, 20 Mar 2024 14:48:31 +0000</pubDate>
-            
-            <guid>http://localhost:1313/blog/posts/c-memory-management/</guid>
-            <description>Reference: SEI CERT C Coding Standard MEM30-C (Do not access freed memory) The following behaviours relating to the use of pointers, after they have been deallocated, are undefined :
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Reference: SEI CERT C Coding Standard MEM30-C (Do not access freed memory) The following behaviours relating to the use of pointers, after they have been deallocated, are undefined :
 Evaluating a pointer, including dereferencing it Using it as an operand of an arithmetic operation Type-casting it Using it as the right-hand side assignment Such pointers are called dangling pointers. Accessing such pointers can lead to exploitable vulnerabilities.
-Example 1 - #include &amp;lt;stdlib.</description>
-            <content type="html"><![CDATA[<h1 id="reference-sei-cert-c-coding-standardhttpswikiseicmueduconfluencedisplaycseicertccodingstandard">Reference: <a href="https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard">SEI CERT C Coding Standard</a></h1>
+Example 1 - #include &amp;lt;stdlib." />
+<meta name="keywords" content=", c, c&#43;&#43;, secure coding" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/blog/posts/c-memory-management/" />
+
+
+    <title>
+        
+            C Memory Management Rules :: Odysseus&#39; Adventures 
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/blog/main.71cfd96f80d475b6773bd356586573095e88e74687d6917a6eb06b6cbe1db343.css" integrity="sha256-cc/Zb4DUdbZ3O9NWWGVzCV6I50aH1pF6brBrbL4ds0M=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+    <link rel="manifest" href="/blog/site.webmanifest">
+    <link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/blog/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="C Memory Management Rules">
+<meta itemprop="description" content="Reference: SEI CERT C Coding Standard MEM30-C (Do not access freed memory) The following behaviours relating to the use of pointers, after they have been deallocated, are undefined :
+Evaluating a pointer, including dereferencing it Using it as an operand of an arithmetic operation Type-casting it Using it as the right-hand side assignment Such pointers are called dangling pointers. Accessing such pointers can lead to exploitable vulnerabilities.
+Example 1 - #include &lt;stdlib."><meta itemprop="datePublished" content="2024-03-20T14:48:31+00:00" />
+<meta itemprop="dateModified" content="2024-03-20T14:48:31+00:00" />
+<meta itemprop="wordCount" content="634">
+<meta itemprop="keywords" content="c,c&#43;&#43;,secure coding," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="C Memory Management Rules"/>
+<meta name="twitter:description" content="Reference: SEI CERT C Coding Standard MEM30-C (Do not access freed memory) The following behaviours relating to the use of pointers, after they have been deallocated, are undefined :
+Evaluating a pointer, including dereferencing it Using it as an operand of an arithmetic operation Type-casting it Using it as the right-hand side assignment Such pointers are called dangling pointers. Accessing such pointers can lead to exploitable vulnerabilities.
+Example 1 - #include &lt;stdlib."/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2024-03-20 14:48:31 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/blog" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                $ cd /home/trilok</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://triii10.github.io/">About</a></li><li><a href="/blog/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        3 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="http://localhost:1313/blog/posts/c-memory-management/">C Memory Management Rules</a>
+      </h1>
+
+      
+
+      
+        <hr />
+        <aside id="toc">
+          <div class="toc-title">Table of Contents</div>
+          <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#mem30-c-do-not-access-freed-memory">MEM30-C (Do not access freed memory)</a></li>
+        <li><a href="#mem31-c-free-dynamically-allocated-memory-when-no-longer-needed">MEM31-C (Free dynamically allocated memory when no longer needed)</a></li>
+        <li><a href="#mem33-c-allocate-and-copy-structures-containing-a-flexible-array-member-dynamically">MEM33-C (Allocate and copy structures containing a flexible array member dynamically)</a></li>
+        <li><a href="#mem34-c-only-free-memory-allocated-dynamically">MEM34-C (Only free memory allocated dynamically)</a></li>
+        <li><a href="#mem35-c-allocate-sufficient-memory-for-an-object">MEM35-C (Allocate sufficient memory for an object)</a></li>
+        <li><a href="#mem36-c-do-not-modify-the-alignment-of-objects-by-calling-realloc">MEM36-C (Do not modify the alignment of objects by calling <code>realloc()</code>)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </aside>
+        <hr />
+
+      
+
+      <div class="post-content">
+        <h1 id="reference-sei-cert-c-coding-standardhttpswikiseicmueduconfluencedisplaycseicertccodingstandard">Reference: <a href="https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard">SEI CERT C Coding Standard</a></h1>
 <h3 id="mem30-c-do-not-access-freed-memory">MEM30-C (Do not access freed memory)</h3>
 <p>The following behaviours relating to the use of pointers, after they have been deallocated, are <strong>undefined</strong> :</p>
 <ul>
@@ -115,22 +256,99 @@ Do not call <code>free()</code> on a pointer other than the one returned by a st
 </span></span></code></pre></div><p>In the above example, <code>p</code> is allocated with size of <code>len * sizeof(int)</code> which is not sufficient. Compliant solution can be <code>len * sizeof(long)</code> or <code>len * sizeof(*p)</code></p>
 <h3 id="mem36-c-do-not-modify-the-alignment-of-objects-by-calling-realloc">MEM36-C (Do not modify the alignment of objects by calling <code>realloc()</code>)</h3>
 <p>Do not invoke <code>realloc()</code> to modify the size of allocated objects that have stricter alignment requirements than those guaranteed by <code>malloc()</code> (eg, <code>assigned_alloc()</code>)</p>
-]]></content>
-        </item>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="http://localhost:1313/blog/tags/c/">c</a></span>
+        <span class="tag"><a href="http://localhost:1313/blog/tags/c&#43;&#43;/">c&#43;&#43;</a></span>
+        <span class="tag"><a href="http://localhost:1313/blog/tags/secure-coding/">secure coding</a></span>
         
-        <item>
-            <title>First</title>
-            <link>http://localhost:1313/blog/posts/first/</link>
-            <pubDate>Fri, 15 Mar 2024 17:05:32 +0000</pubDate>
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        634 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2024-03-20 14:48 &#43;0000
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+    <div class="pagination">
+        
+
+        <div class="pagination__buttons">
             
-            <guid>http://localhost:1313/blog/posts/first/</guid>
-            <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
-]]></content>
-        </item>
+
+            
+            <span class="button next">
+                <a href="http://localhost:1313/blog/posts/first/">
+                    <span class="button__text">First</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
         
-    </channel>
-</rss>
+
+
+
+<script type="text/javascript" src="/blog/bundle.min.ac2a4bcaed631ec2dc154407be7f09fc28da37de71fae6dee6711b2a3d1622770f87d3cda22c460e9a68ff619bdb1dd75cb7a5d33f159a54e419736cc4541087.js" integrity="sha512-rCpLyu1jHsLcFUQHvn8J/CjaN95x&#43;ube5nEbKj0WIncPh9PNoixGDppo/2Gb2x3XXLel0z8VmlTkGXNsxFQQhw=="></script>
+
+
+
+
+    </body>
+</html>
